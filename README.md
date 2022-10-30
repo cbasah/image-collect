@@ -1,6 +1,6 @@
 # image-collect
 
-This simple python script is to poll an image from a URL and combine them into a gif sequence.
+This simple python script is to download an image from a URL and combine it into a gif sequence of previously-downloaded images.
 
 Create a `.env` file in the project's root directory with following environment variables:
 
