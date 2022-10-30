@@ -1,0 +1,5 @@
+env/
+.env
+runme.sh
+images
+radar.gif
