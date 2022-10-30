@@ -3,10 +3,12 @@ import imageio
 import imageio.v3 as iio
 import os
 from os import listdir
+import pathlib
 import requests
 from datetime import datetime, timedelta
 
-config = dotenv_values(".env")
+script_path = pathlib.Path(__file__).parent.resolve()
+config = dotenv_values(f"{script_path}/.env")
 
 # part 1: download current image
 img_data = requests.get(config["IMAGE_URL"]).content
