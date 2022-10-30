@@ -15,5 +15,8 @@ PREFIX_DATESTR_SEPARATOR="_"
 FILE_EXTENSION=".gif" # must begin with '.' e.g. '.gif', '.png'
 ```
 
+To run this script
+`python3 collector.py`
+
 ## Use Case ##
 For me, I use this script to collect the Malaysian Meteorological Department's radar image and to determine whether there is rain overnight.
